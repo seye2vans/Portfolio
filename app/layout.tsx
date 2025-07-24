@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Olaleye Seye - Full Stack Developer",
     description:
-      "Portfolio of John Doe, a passionate full-stack developer specializing in React, Next.js, and modern web technologies.",
+      "Portfolio of Olaleye Seye, a passionate full-stack developer specializing in React, Next.js, and modern web technologies.",
     url: "",
-    siteName: "John Doe Portfolio",
+    siteName: "Olaleye Seye Portfolio",
     images: [
       {
         url: "/og-image.jpg",
