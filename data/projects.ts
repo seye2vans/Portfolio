@@ -1,0 +1,72 @@
+export const projects = [
+  {
+    id: "Ouote",
+    title: "Ouote Landing Page",
+    description:
+      "A comprehensive landing page for a quote management application.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: [ "Next.js", "TypeScript",  ],
+    githubUrl: "https://github.com/seye2vans/Quote",
+    liveUrl: "https://quote-self.vercel.app/",
+    featured: true,
+    category: "Web Application",
+  },
+  {
+    id: "Job Filter",
+    title: "Job Filter Application",
+    description:
+      "A Job filter application that helps you filter jobs.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["Next.js", "Tailwind Css", "TypeScript"],
+    githubUrl: "https://github.com/seye2vans/JobFilter",
+    liveUrl: "https://job-filter-odjh.vercel.app/",
+    featured: true,
+    category: "E-commerce",
+  },
+  {
+    id: "Netflix",
+    title: "Netflix Demo App",
+    description:
+      "A beautiful Netflix demo with clean UI",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["React-Native", ],
+    githubUrl: "https://github.com/seye2vans/Netflix",
+    liveUrl: "https://weatherpro-demo.vercel.app",
+    featured: false,
+    category: "Web Application",
+  },
+  {
+    id: "social-media-app",
+    title: "ConnectHub - Social Media App",
+    description:
+      "A social media platform with real-time messaging, post sharing, and community features built with modern technologies.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["React Native", "Node.js", "MongoDB", "Socket.io", "Express"],
+    githubUrl: "https://github.com/johndoe/connecthub",
+    featured: false,
+    category: "Mobile App",
+  },
+  {
+    id: "portfolio-website",
+    title: "Creative Portfolio Template",
+    description:
+      "A stunning portfolio template for creatives and developers with smooth animations and responsive design.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "MDX"],
+    githubUrl: "https://github.com/johndoe/portfolio-template",
+    liveUrl: "https://portfolio-template-demo.vercel.app",
+    featured: false,
+    category: "Template",
+  },
+  {
+    id: "ai-chat-bot",
+    title: "AI ChatBot Assistant",
+    description: "An intelligent chatbot powered by AI with natural language processing and context-aware responses.",
+    image: "/placeholder.svg?height=400&width=600",
+    technologies: ["Python", "FastAPI", "OpenAI API", "React", "WebSocket"],
+    githubUrl: "https://github.com/johndoe/ai-chatbot",
+    liveUrl: "https://ai-chatbot-demo.vercel.app",
+    featured: true,
+    category: "AI/ML",
+  },
+]
