@@ -8,6 +8,7 @@ import { projects } from "@/data/projects"
 import user from "./images/user.jpg"
 import language from "./images/language.jpg"
 
+
 export default function Home() {
   const featuredProjects = projects.filter((project) => project.featured).slice(0, 3)
 
@@ -176,7 +177,7 @@ export default function Home() {
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
               asChild
             >
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/Resume.pdf" target="_blank">
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Link>

@@ -19,7 +19,7 @@ const blogPosts = [
     excerpt:
       "Learn how to build modern web applications with Next.js 14, including the new App Router, Server Components, and more.",
     content: "Full article content here...",
-    author: "John Doe",
+    author: "Olaleye Seye",
     publishedAt: "2024-01-15",
     readTime: "8 min read",
     category: "Tutorial",
@@ -201,12 +201,12 @@ export default function Blog() {
                       ))}
                     </div>
 
-                    <Button variant="ghost" size="sm" asChild>
+                    {/* <Button variant="ghost" size="sm" asChild>
                       <Link href={`/blog/${post.id}`}>
                         Read More
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
-                    </Button>
+                    </Button> */}
                   </CardContent>
                 </Card>
               ))}
@@ -269,12 +269,12 @@ export default function Blog() {
                     ))}
                   </div>
 
-                  <Button variant="ghost" size="sm" asChild>
+                  {/* <Button variant="ghost" size="sm" asChild>
                     <Link href={`/blog/${post.id}`}>
                       Read More
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
