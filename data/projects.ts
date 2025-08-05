@@ -55,7 +55,7 @@ export const projects = [
     image: "https://res.cloudinary.com/dp6dv2jct/image/upload/v1753736228/book_yt7bam.jpg",
     technologies: ["Springboot", "Docker", "MongoDB", "React", "Postgres"],
     githubUrl: "https://github.com/jay-bee270/BookService.git",
-    liveUrl: "https://book-service-wheat.vercel.app/",
+    // liveUrl: "https://book-service-wheat.vercel.app/",
     featured: true,
     category: "Web page",
   },
