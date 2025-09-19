@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import seye from "../images/seye.png"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -15,9 +16,9 @@ export const metadata: Metadata = {
 export default function About() {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
+      title: "Junior Full-Stack Developer",
       company: "Tech Innovations Inc.",
-      period: "2022 - Present",
+      period: "--",
       description:
         "Leading development of scalable web applications using React, Next.js, and Node.js. Mentoring junior developers and architecting solutions for complex business requirements.",
       technologies: ["React", "Next.js", "TypeScript", "Springboot", "PostgreSQL", "React-Native"],
@@ -25,7 +26,7 @@ export default function About() {
     {
       title: "Full-Stack Developer",
       company: "Digital Solutions Ltd.",
-      period: "2020 - 2022",
+      period: "--",
       description:
         "Developed and maintained multiple client projects, focusing on responsive design and performance optimization. Collaborated with design teams to implement pixel-perfect UIs.",
       technologies: ["React", "Vue.js", "Python", "Django", "MongoDB", "Docker"],
@@ -33,7 +34,7 @@ export default function About() {
     {
       title: "Frontend Developer",
       company: "StartupXYZ",
-      period: "2019 - 2020",
+      period: "--",
       description:
         "Built responsive web applications from scratch, implemented modern UI/UX designs, and optimized applications for maximum speed and scalability.",
       technologies: ["JavaScript", "React", "Sass", "Webpack", "REST APIs"],
@@ -44,7 +45,7 @@ export default function About() {
     {
       degree: "Bachelor of Science in Computer Science",
       school: "University of Technology",
-      period: "2015 - 2019",
+      period: "--",
       description: "Graduated with honors. Focused on software engineering, algorithms, and web development.",
     },
   ]
@@ -79,7 +80,7 @@ export default function About() {
             </div>
 
             <Button size="lg" asChild>
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="/Resume.pdf" target="_blank">
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Link>
@@ -88,13 +89,15 @@ export default function About() {
 
           <div className="animate-bounce-in">
             <div className="relative">
+              <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/placeholder.svg?height=500&width=400"
+                src={seye}
                 alt="Olaleye seye working"
                 width={400}
                 height={500}
                 className="rounded-lg shadow-lg"
               />
+              </div>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import ProjectCard from "@/components/project-card"
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react"
 import { projects } from "@/data/projects"
-import user from "./images/user.jpg"
+import seye from "./images/seye.png"
 import language from "./images/language.jpg"
 
 
@@ -72,7 +72,7 @@ export default function Home() {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/20">
                 <Image
-                  src={user}
+                  src={seye}
                   alt="John Doe"
                   width={400}
                   height={400}
