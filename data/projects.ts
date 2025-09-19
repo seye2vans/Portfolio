@@ -30,7 +30,7 @@ export const projects = [
     title: "Netflix Demo App",
      description:
       "A beautiful Netflix demo with clean UI",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://res.cloudinary.com/dp6dv2jct/image/upload/v1758306772/ff283e54-6705-46a0-9582-06d113435a13-cover_ug7kx1.png",
     technologies: ["React-Native", ],
     githubUrl: "https://github.com/seye2vans/Netflix",
     featured: false,
